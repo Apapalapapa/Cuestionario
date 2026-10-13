@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Fútbol</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <main class="contenedor">
+        <h1>⚽ Quiz de Fútbol ⚽</h1>
+        <p>¿Cuánto sabés de fútbol? ¡Demostrá tus conocimientos!</p>
+
+<section class="pregunta">
+    <h2>1. ¿Qué selección ganó el Mundial de 2010?</h2>
+    <select id="p1">
+        <option value="">Elegí una respuesta</option>
+        <option value="alemania">Alemania</option>
+        <option value="españa">España</option>
+        <option value="paisesbajos">Países Bajos</option>
+    </select>
+</section>
+
+<section class="pregunta">
+    <h2>4. ¿Qué selección ganó la Eurocopa de 2016?</h2>
+    <select id="p4">
+        <option value="">Elegí una respuesta</option>
+        <option value="francia">Francia</option>
+        <option value="portugal">Portugal</option>
+        <option value="italia">Italia</option>
+    </select>
+</section>
+
+<section class="pregunta">
+    <h2>5. ¿Qué equipo ganó la Copa Libertadores de 2018?</h2>
+    <select id="p5">
+        <option value="">Elegí una respuesta</option>
+        <option value="river">River Plate</option>
+        <option value="boca">Boca Juniors</option>
+        <option value="gremio">Grêmio</option>
+    </select>
+</section>
+
+<section class="pregunta">
+    <h2>2. ¿Qué club ganó la primera edición de la Champions League con ese nombre, en la temporada 1992-93?</h2>
+    <select id="p2">
+        <option value="">Elegí una respuesta</option>
+        <option value="milan">AC Milan</option>
+        <option value="barcelona">Barcelona</option>
+        <option value="marsella">Olympique de Marsella</option>
+    </select>
+</section>
+
+<section class="pregunta">
+    <h2>3. ¿Quién fue el máximo goleador del Mundial de Brasil 2014?</h2>
+    <select id="p3">
+        <option value="">Elegí una respuesta</option>
+        <option value="messi">Lionel Messi</option>
+        <option value="neymar">Neymar</option>
+        <option value="james">James Rodríguez</option>
+    </select>
+</section>
+
+
+        <button onclick="corregir()">Corregir quiz</button>
+
+        <p id="resultado">Tu puntaje aparecerá acá.</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
